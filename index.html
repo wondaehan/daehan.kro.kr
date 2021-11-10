@@ -15,3 +15,22 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<title>daehan.dev</title>
+<script>
+  var filter = "win16|win32|win64|mac";
+      if(navigator.platform){
+        if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+          if(navigator.language=='ko' || navigator.language=='ko-KR') {
+            window.location.href='http://daehan.ml/ko/main'
+          } else {
+            window.location.href='http://daehan.ml/main'
+          }
+        } else {
+          if(navigator.language=='ko' || navigator.language=='ko-KR') {
+            window.location.href='http://daehan.ml/ko/main'
+          } else {
+            window.location.href='http://daehan.ml/main'
+          }
+        }
+      }
+</script>
